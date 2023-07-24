@@ -1,7 +1,7 @@
 var collection = [
-    { name: 'amagwinya', url: '/assets/titles/Group 109.png' },
-    { name: 'amagwinya', url: '/assets/titles/Group 112.png' },
-    { name: 'boots', url: '/assets/titles/Group 107.png' },
+    { name: 'amagwinya', url: './assets/titles/Group 109.png' },
+    { name: 'amagwinya', url: './assets/titles/Group 112.png' },
+    { name: 'boots', url: './assets/titles/Group 107.png' },
 
 ]
 document.addEventListener('DOMContentLoaded', function() {
