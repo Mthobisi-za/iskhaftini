@@ -1,8 +1,9 @@
 body {
-    /* background-image: url('./assets/bg.png');
-    background-size: cover;*/
-    height: 100vh;
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    height: auto;
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 .mobile_bg {
@@ -18,6 +19,8 @@ body {
     min-height: 40vh;
     background-repeat: no-repeat;
     z-index: 0;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .bg_top img {
@@ -250,4 +253,8 @@ body {
     .third {
         display: none;
     }
+}
+
+img {
+    max-width: 100%;
 }
