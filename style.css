@@ -1,0 +1,231 @@
+body {
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.mobile_bg {
+    display: none;
+}
+
+.desktop_bg {
+    display: block;
+}
+
+.bg_top {
+    width: 100%;
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.bg_top img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.top_section_slider {
+    width: 100%;
+    margin: auto;
+    margin-top: -400px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* arrows */
+
+.splide__arrow {
+    border-radius: 18px!important;
+    background-color: #1B5130!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    height: 40px!important;
+    width: 60px!important;
+    opacity: 1!important;
+    color: #fff!important;
+}
+
+.splide__arrow svg {
+    height: 30px!important;
+    width: 30px!important;
+    fill: #fff!important;
+}
+
+.splide__arrows {
+    margin-top: 10px;
+}
+
+.bg_top div {
+    margin-top: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0px;
+    text-align: center;
+}
+
+
+/* arrows */
+
+
+/* responsive */
+
+@media (max-width:1500px) {
+    .bg_top div {
+        margin-top: -10px;
+        z-index: 2;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0px;
+    }
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -290px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media (max-width:1253px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -250px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media (max-width:1165px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -320px;
+        position: relative;
+        z-index: 1;
+    }
+    .desktop_bg {
+        display: none;
+    }
+    .mobile_bg {
+        display: block;
+    }
+}
+
+@media (max-width:800px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -290px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 60%;
+    }
+}
+
+@media (max-width:740px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -230px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 60%;
+    }
+    /* .mobile_bg {
+        transform: scale(2);
+    } */
+}
+
+@media (max-width:637px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -100px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 70%;
+    }
+    .mobile_bg {
+        transform: scale(2);
+    }
+    .splide__arrow {
+        border-radius: 18px!important;
+        background-color: #1B5130!important;
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+        height: 20px!important;
+        width: 40px!important;
+        opacity: 1!important;
+        color: #fff!important;
+    }
+    .splide__arrow svg {
+        height: 19px!important;
+        width: 19px!important;
+        fill: #fff!important;
+    }
+    .icon_skhaftini {
+        width: 200px!important;
+    }
+}
+
+@media (max-width:488px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -140px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 70%;
+    }
+    .mobile_bg {
+        transform: scale(2);
+    }
+}
+
+@media (max-width:423px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -150px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 70%;
+    }
+    .mobile_bg {
+        transform: scale(2);
+    }
+}
+
+@media (max-width:373px) {
+    .top_section_slider {
+        width: 100%;
+        margin: auto;
+        margin-top: -180px;
+        position: relative;
+        z-index: 1;
+    }
+    .splide__slide div img {
+        width: 70%;
+    }
+    .mobile_bg {
+        transform: scale(2);
+    }
+}
+
+
+/* esponsive */
