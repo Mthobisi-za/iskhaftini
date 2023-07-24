@@ -229,3 +229,24 @@ body {
 
 
 /* esponsive */
+
+.bottom_sections {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 100px;
+}
+
+.bottom_sections div {
+    text-align: center;
+}
+
+.bottom_sections div img {
+    transition: ease('cubic-bezier(.17,.67,.83,.67)');
+}
+
+@media (max-width:835px) {
+    .first,
+    .third {
+        display: none;
+    }
+}
