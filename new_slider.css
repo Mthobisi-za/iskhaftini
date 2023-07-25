@@ -78,6 +78,7 @@ img {
         /* min-height: 400px; */
         /* background-image: url('./new_assets/top.png'); */
         height: auto;
+        overflow: hidden;
     }
     .top img {
         transform: scale(1.2);
